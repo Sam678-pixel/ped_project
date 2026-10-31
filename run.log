@@ -1,0 +1,713 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------------< fonea:ped >------------------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.1.1:run (default-cli) > test-compile @ ped >>>
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ ped ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ ped ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ ped ---
+[INFO] Copying 38 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ ped ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.1.1:run (default-cli) < test-compile @ ped <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.1.1:run (default-cli) @ ped ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-30T08:44:53.840+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Starting PedApplication using Java 21.0.10 with PID 804 (D:\projet_Soutenance\ped\target\classes started by HABIMANA Bienaim├® in D:\projet_Soutenance\ped)
+2026-10-30T08:44:53.844+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-10-30T08:44:53.942+01:00  INFO 804 --- [ped] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-30T08:44:53.942+01:00  INFO 804 --- [ped] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-30T08:44:56.113+01:00  INFO 804 --- [ped] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-30T08:44:56.148+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-30T08:44:56.148+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-30T08:44:56.215+01:00  INFO 804 --- [ped] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2272 ms
+2026-10-30T08:44:56.696+01:00  INFO 804 --- [ped] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name utilisateurDetailsService
+2026-10-30T08:44:58.022+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-30T08:44:58.299+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31b7b85a
+2026-10-30T08:44:58.305+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-30T08:44:59.153+01:00  INFO 804 --- [ped] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-30T08:44:59.161+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Started PedApplication in 5.984 seconds (process running for 6.714)
+2026-10-30T08:44:59.975+01:00  INFO 804 --- [ped] [  restartedMain] f.p.i.config.InitialisationDonnees       : Comptes de d├®monstration pr├¬ts : agent@fonea.bi, entreprise@demo.bi, diplome@demo.bi (admin=USR_ADMIN).
+2026-10-30T08:44:59.975+01:00  INFO 804 --- [ped] [  restartedMain] f.p.i.config.InitialisationDonnees       : Initialisation des donn├®es termin├®e (admin=admin@fonea.bi).
+2026-10-30T08:45:22.143+01:00  INFO 804 --- [ped] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-30T08:45:22.143+01:00  INFO 804 --- [ped] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-30T08:45:22.145+01:00  INFO 804 --- [ped] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-10-30T08:46:07.570+01:00  INFO 804 --- [ped] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 400 class path changes (0 additions, 400 deletions, 0 modifications)
+2026-10-30T08:46:07.589+01:00  INFO 804 --- [ped] [       Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-30T08:46:07.627+01:00  INFO 804 --- [ped] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-30T08:46:07.658+01:00  INFO 804 --- [ped] [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-30T08:46:07.679+01:00  INFO 804 --- [ped] [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-30T08:46:07.923+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Starting PedApplication using Java 21.0.10 with PID 804 (D:\projet_Soutenance\ped\target\classes started by HABIMANA Bienaim├® in D:\projet_Soutenance\ped)
+2026-10-30T08:46:07.923+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-10-30T08:46:08.516+01:00  INFO 804 --- [ped] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-30T08:46:08.518+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-30T08:46:08.518+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-30T08:46:08.559+01:00  INFO 804 --- [ped] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 632 ms
+2026-10-30T08:46:08.849+01:00  WARN 804 --- [ped] [  restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2cf5244d-7b18-4822-9f79-38d4e8f28c3d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-10-30T08:46:08.877+01:00  INFO 804 --- [ped] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-10-30T08:46:09.073+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-10-30T08:46:09.085+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57dbb255
+2026-10-30T08:46:09.085+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-10-30T08:46:09.325+01:00  INFO 804 --- [ped] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-30T08:46:09.340+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Started PedApplication in 1.481 seconds (process running for 76.894)
+2026-10-30T08:46:09.355+01:00  INFO 804 --- [ped] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ServletWebSecurityAutoConfiguration.SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AnyNestedCondition 1 matched 2 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-10-30T08:46:15.013+01:00  INFO 804 --- [ped] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 400 class path changes (400 additions, 0 deletions, 0 modifications)
+2026-10-30T08:46:15.017+01:00  INFO 804 --- [ped] [       Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-30T08:46:15.037+01:00  INFO 804 --- [ped] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-30T08:46:15.038+01:00  INFO 804 --- [ped] [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-10-30T08:46:15.039+01:00  INFO 804 --- [ped] [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-30T08:46:15.150+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Starting PedApplication using Java 21.0.10 with PID 804 (D:\projet_Soutenance\ped\target\classes started by HABIMANA Bienaim├® in D:\projet_Soutenance\ped)
+2026-10-30T08:46:15.150+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-10-30T08:46:15.701+01:00  INFO 804 --- [ped] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-30T08:46:15.702+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-30T08:46:15.702+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-30T08:46:15.736+01:00  INFO 804 --- [ped] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 585 ms
+2026-10-30T08:46:15.971+01:00  INFO 804 --- [ped] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name utilisateurDetailsService
+2026-10-30T08:46:16.635+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-10-30T08:46:16.639+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76e8dacd
+2026-10-30T08:46:16.640+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-10-30T08:46:16.714+01:00  INFO 804 --- [ped] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-30T08:46:16.716+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Started PedApplication in 1.596 seconds (process running for 84.27)
+2026-10-30T08:46:16.790+01:00  INFO 804 --- [ped] [  restartedMain] f.p.i.config.InitialisationDonnees       : Comptes de d├®monstration pr├¬ts : agent@fonea.bi, entreprise@demo.bi, diplome@demo.bi (admin=USR_ADMIN).
+2026-10-30T08:46:16.790+01:00  INFO 804 --- [ped] [  restartedMain] f.p.i.config.InitialisationDonnees       : Initialisation des donn├®es termin├®e (admin=admin@fonea.bi).
+2026-10-30T08:46:16.794+01:00  INFO 804 --- [ped] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   ServletWebSecurityAutoConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationManager and found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' utilisateurDetailsService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+         - AnyNestedCondition 1 matched 2 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-10-30T08:46:38.775+01:00  INFO 804 --- [ped] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-30T08:46:38.775+01:00  INFO 804 --- [ped] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-30T08:46:38.776+01:00  INFO 804 --- [ped] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-30T08:46:40.017+01:00  WARN 804 --- [ped] [nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [fonea.ped.domain.exceptions.InsertionImpossibleException: L'insertion est impossible pour la mise en stage MES-c85a4bc5 (statut actuel : EN_ATTENTE, statut attendu : TERMINE).]
+2026-10-30T08:47:28.269+01:00  WARN 804 --- [ped] [nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2026-10-30T08:47:28.306+01:00  WARN 804 --- [ped] [nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2026-10-30T08:47:28.327+01:00  WARN 804 --- [ped] [nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2026-10-30T08:50:03.563+01:00  INFO 804 --- [ped] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 400 class path changes (0 additions, 400 deletions, 0 modifications)
+2026-10-30T08:50:03.568+01:00  INFO 804 --- [ped] [       Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-30T08:50:03.632+01:00  INFO 804 --- [ped] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-30T08:50:03.637+01:00  INFO 804 --- [ped] [       Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-10-30T08:50:03.639+01:00  INFO 804 --- [ped] [       Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-30T08:50:03.872+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Starting PedApplication using Java 21.0.10 with PID 804 (D:\projet_Soutenance\ped\target\classes started by HABIMANA Bienaim├® in D:\projet_Soutenance\ped)
+2026-10-30T08:50:03.872+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-10-30T08:50:04.596+01:00  INFO 804 --- [ped] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-30T08:50:04.599+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-30T08:50:04.599+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-30T08:50:04.644+01:00  INFO 804 --- [ped] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 756 ms
+2026-10-30T08:50:04.988+01:00  WARN 804 --- [ped] [  restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: efe418c6-b913-4035-9f39-ff900caf2f6f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-10-30T08:50:05.033+01:00  INFO 804 --- [ped] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-10-30T08:50:05.163+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-10-30T08:50:05.169+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aba3ca4
+2026-10-30T08:50:05.169+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-10-30T08:50:05.266+01:00  INFO 804 --- [ped] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-30T08:50:05.270+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Started PedApplication in 1.474 seconds (process running for 312.823)
+2026-10-30T08:50:05.271+01:00  INFO 804 --- [ped] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ServletWebSecurityAutoConfiguration.SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AnyNestedCondition 1 matched 2 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-10-30T08:50:12.529+01:00  INFO 804 --- [ped] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 400 class path changes (400 additions, 0 deletions, 0 modifications)
+2026-10-30T08:50:12.531+01:00  INFO 804 --- [ped] [      Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-30T08:50:12.550+01:00  INFO 804 --- [ped] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-30T08:50:12.554+01:00  INFO 804 --- [ped] [      Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-10-30T08:50:12.559+01:00  INFO 804 --- [ped] [      Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-30T08:50:12.713+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Starting PedApplication using Java 21.0.10 with PID 804 (D:\projet_Soutenance\ped\target\classes started by HABIMANA Bienaim├® in D:\projet_Soutenance\ped)
+2026-10-30T08:50:12.714+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-10-30T08:50:13.718+01:00  INFO 804 --- [ped] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-30T08:50:13.723+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-30T08:50:13.725+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-30T08:50:13.798+01:00  INFO 804 --- [ped] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1082 ms
+2026-10-30T08:50:14.431+01:00  INFO 804 --- [ped] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name utilisateurDetailsService
+2026-10-30T08:50:15.594+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2026-10-30T08:50:15.599+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6206f95b
+2026-10-30T08:50:15.599+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2026-10-30T08:50:15.769+01:00  INFO 804 --- [ped] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-30T08:50:15.780+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Started PedApplication in 3.125 seconds (process running for 323.333)
+2026-10-30T08:50:16.000+01:00  INFO 804 --- [ped] [  restartedMain] f.p.i.config.InitialisationDonnees       : Comptes de d├®monstration pr├¬ts : agent@fonea.bi, entreprise@demo.bi, diplome@demo.bi (admin=USR_ADMIN).
+2026-10-30T08:50:16.001+01:00  INFO 804 --- [ped] [  restartedMain] f.p.i.config.InitialisationDonnees       : Initialisation des donn├®es termin├®e (admin=admin@fonea.bi).
+2026-10-30T08:50:16.011+01:00  INFO 804 --- [ped] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   ServletWebSecurityAutoConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationManager and found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' utilisateurDetailsService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+         - AnyNestedCondition 1 matched 2 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-10-30T08:50:37.265+01:00  INFO 804 --- [ped] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-30T08:50:37.265+01:00  INFO 804 --- [ped] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-30T08:50:37.267+01:00  INFO 804 --- [ped] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-10-30T08:50:37.631+01:00  WARN 804 --- [ped] [nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2026-10-30T08:54:16.188+01:00  INFO 804 --- [ped] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 398 class path changes (0 additions, 0 deletions, 398 modifications)
+2026-10-30T08:54:16.190+01:00  INFO 804 --- [ped] [      Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-30T08:54:16.216+01:00  INFO 804 --- [ped] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-30T08:54:16.219+01:00  INFO 804 --- [ped] [      Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2026-10-30T08:54:16.221+01:00  INFO 804 --- [ped] [      Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-30T08:54:16.425+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Starting PedApplication using Java 21.0.10 with PID 804 (D:\projet_Soutenance\ped\target\classes started by HABIMANA Bienaim├® in D:\projet_Soutenance\ped)
+2026-10-30T08:54:16.426+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-10-30T08:54:17.003+01:00  WARN 804 --- [ped] [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+2026-10-30T08:54:17.007+01:00  INFO 804 --- [ped] [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-30T08:54:17.036+01:00 ERROR 804 --- [ped] [  restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-4.1.1.jar:4.1.1]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:100) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:196) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:464) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:316) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:795) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:603) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at fonea.ped.PedApplication.main(PedApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [fonea.ped.infrastructure.securite.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@74dad994]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$0(AbstractAutowireCapableBeanFactory.java:748) ~[spring-beans-7.0.9.jar:7.0.9]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1699) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:632) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:604) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:589) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanDefinitionsForType(OnBeanCondition.java:334) ~[spring-boot-autoconfigure-4.1.1.jar:4.1.1]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanDefinitionsForType(OnBeanCondition.java:323) ~[spring-boot-autoconfigure-4.1.1.jar:4.1.1]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-4.1.1.jar:4.1.1]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.evaluateConditionalOnMissingBean(OnBeanCondition.java:204) ~[spring-boot-autoconfigure-4.1.1.jar:4.1.1]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:149) ~[spring-boot-autoconfigure-4.1.1.jar:4.1.1]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-4.1.1.jar:4.1.1]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: HttpServletResponse
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3580) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2678) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-7.0.9.jar:7.0.9]
+	... 37 common frames omitted
+Caused by: java.lang.ClassNotFoundException: HttpServletResponse
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:536) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:515) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 41 common frames omitted
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-30T08:54:23.122+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Starting PedApplication using Java 21.0.10 with PID 804 (D:\projet_Soutenance\ped\target\classes started by HABIMANA Bienaim├® in D:\projet_Soutenance\ped)
+2026-10-30T08:54:23.123+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-10-30T08:54:25.871+01:00  WARN 804 --- [ped] [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.validation.autoconfigure.ValidationAutoConfiguration.defaultValidator
+2026-10-30T08:54:25.881+01:00  INFO 804 --- [ped] [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-30T08:54:25.908+01:00 ERROR 804 --- [ped] [  restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.validation.autoconfigure.ValidationAutoConfiguration.defaultValidator
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-4.1.1.jar:4.1.1]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:100) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:196) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:464) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:316) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:795) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:603) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at fonea.ped.PedApplication.main(PedApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [fonea.ped.infrastructure.config.GatewayConfiguration] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6a4f3f4c]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$0(AbstractAutowireCapableBeanFactory.java:748) ~[spring-beans-7.0.9.jar:7.0.9]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1699) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:632) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:604) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:589) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanDefinitionsForType(OnBeanCondition.java:334) ~[spring-boot-autoconfigure-4.1.1.jar:4.1.1]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanDefinitionsForType(OnBeanCondition.java:323) ~[spring-boot-autoconfigure-4.1.1.jar:4.1.1]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-4.1.1.jar:4.1.1]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.evaluateConditionalOnMissingBean(OnBeanCondition.java:204) ~[spring-boot-autoconfigure-4.1.1.jar:4.1.1]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:149) ~[spring-boot-autoconfigure-4.1.1.jar:4.1.1]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-4.1.1.jar:4.1.1]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: fonea/ped/useCase/useCaseOffres/ports/CritereTechniqueLinguistiqueRepository
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3580) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2678) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-7.0.9.jar:7.0.9]
+	... 37 common frames omitted
+Caused by: java.lang.ClassNotFoundException: fonea.ped.useCase.useCaseOffres.ports.CritereTechniqueLinguistiqueRepository
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:536) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:515) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 41 common frames omitted
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-30T08:54:32.510+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Starting PedApplication using Java 21.0.10 with PID 804 (D:\projet_Soutenance\ped\target\classes started by HABIMANA Bienaim├® in D:\projet_Soutenance\ped)
+2026-10-30T08:54:32.510+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-10-30T08:54:33.863+01:00  INFO 804 --- [ped] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-30T08:54:33.869+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-30T08:54:33.869+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-30T08:54:33.943+01:00  INFO 804 --- [ped] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1425 ms
+2026-10-30T08:54:34.467+01:00  INFO 804 --- [ped] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name utilisateurDetailsService
+2026-10-30T08:54:35.746+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2026-10-30T08:54:35.756+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@430d518a
+2026-10-30T08:54:35.757+01:00  INFO 804 --- [ped] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2026-10-30T08:54:35.864+01:00  INFO 804 --- [ped] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-30T08:54:35.868+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Started PedApplication in 3.42 seconds (process running for 583.421)
+2026-10-30T08:54:35.928+01:00  INFO 804 --- [ped] [  restartedMain] f.p.i.config.InitialisationDonnees       : Comptes de d├®monstration pr├¬ts : agent@fonea.bi, entreprise@demo.bi, diplome@demo.bi (admin=USR_ADMIN).
+2026-10-30T08:54:35.928+01:00  INFO 804 --- [ped] [  restartedMain] f.p.i.config.InitialisationDonnees       : Initialisation des donn├®es termin├®e (admin=admin@fonea.bi).
+2026-10-30T08:54:35.930+01:00  INFO 804 --- [ped] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-30T08:55:38.077+01:00  INFO 804 --- [ped] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 18 class path changes (0 additions, 0 deletions, 18 modifications)
+2026-10-30T08:55:38.079+01:00  INFO 804 --- [ped] [      Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-30T08:55:38.099+01:00  INFO 804 --- [ped] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-30T08:55:38.104+01:00  INFO 804 --- [ped] [      Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2026-10-30T08:55:38.107+01:00  INFO 804 --- [ped] [      Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-30T08:55:38.260+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : Starting PedApplication using Java 21.0.10 with PID 804 (D:\projet_Soutenance\ped\target\classes started by HABIMANA Bienaim├® in D:\projet_Soutenance\ped)
+2026-10-30T08:55:38.261+01:00  INFO 804 --- [ped] [  restartedMain] fonea.ped.PedApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-10-30T08:55:39.401+01:00  INFO 804 --- [ped] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-30T08:55:39.407+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-30T08:55:39.408+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-30T08:55:39.444+01:00  INFO 804 --- [ped] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1178 ms
+2026-10-30T08:55:39.573+01:00 ERROR 804 --- [ped] [  restartedMain] t.s.DeferredServletContainerInitializers : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [D:\projet_Soutenance\ped\target\classes\fonea\ped\infrastructure\securite\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'utilisateurDetailsService' defined in file [D:\projet_Soutenance\ped\target\classes\fonea\ped\infrastructure\securite\UtilisateurDetailsService.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'rolePermissionRepository' defined in class path resource [fonea/ped/infrastructure/config/GatewayConfiguration.class]: Failed to instantiate [fonea.ped.useCase.useCaseSecurite.RolePermissionRepository]: Factory method 'rolePermissionRepository' threw exception with message: Unresolved compilation problem: 
+	Type mismatch: cannot convert from LiaisonGateways.RolePermissionGateway to RolePermissionRepository
+
+2026-10-30T08:55:39.575+01:00  INFO 804 --- [ped] [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-30T08:55:39.580+01:00  WARN 804 --- [ped] [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-10-30T08:55:39.582+01:00  INFO 804 --- [ped] [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-30T08:55:39.587+01:00 ERROR 804 --- [ped] [  restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at fonea.ped.PedApplication.main(PedApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:150) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	at org.springframework.boot.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:110) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:429) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:167) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:190) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	... 11 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter' defined in file [D:\projet_Soutenance\ped\target\classes\fonea\ped\infrastructure\securite\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'utilisateurDetailsService' defined in file [D:\projet_Soutenance\ped\target\classes\fonea\ped\infrastructure\securite\UtilisateurDetailsService.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'rolePermissionRepository' defined in class path resource [fonea/ped/infrastructure/config/GatewayConfiguration.class]: Failed to instantiate [fonea.ped.useCase.useCaseSecurite.RolePermissionRepository]: Factory method 'rolePermissionRepository' threw exception with message: Unresolved compilation problem: 
+	Type mismatch: cannot convert from LiaisonGateways.RolePermissionGateway to RolePermissionRepository
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1380) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:231) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:185) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:180) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:165) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:97) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.web.context.servlet.WebApplicationContextInitializer.initialize(WebApplicationContextInitializer.java:53) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.tomcat.servlet.DeferredServletContainerInitializers.onStartup(DeferredServletContainerInitializers.java:55) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4573) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1204) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1200) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:732) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1204) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1200) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:732) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:871) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:452) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:131) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	... 16 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'utilisateurDetailsService' defined in file [D:\projet_Soutenance\ped\target\classes\fonea\ped\infrastructure\securite\UtilisateurDetailsService.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'rolePermissionRepository' defined in class path resource [fonea/ped/infrastructure/config/GatewayConfiguration.class]: Failed to instantiate [fonea.ped.useCase.useCaseSecurite.RolePermissionRepository]: Factory method 'rolePermissionRepository' threw exception with message: Unresolved compilation problem: 
+	Type mismatch: cannot convert from LiaisonGateways.RolePermissionGateway to RolePermissionRepository
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1380) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1232) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1711) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1658) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 56 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rolePermissionRepository' defined in class path resource [fonea/ped/infrastructure/config/GatewayConfiguration.class]: Failed to instantiate [fonea.ped.useCase.useCaseSecurite.RolePermissionRepository]: Factory method 'rolePermissionRepository' threw exception with message: Unresolved compilation problem: 
+	Type mismatch: cannot convert from LiaisonGateways.RolePermissionGateway to RolePermissionRepository
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1360) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1232) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1711) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1658) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 70 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [fonea.ped.useCase.useCaseSecurite.RolePermissionRepository]: Factory method 'rolePermissionRepository' threw exception with message: Unresolved compilation problem: 
+	Type mismatch: cannot convert from LiaisonGateways.RolePermissionGateway to RolePermissionRepository
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 84 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from LiaisonGateways.RolePermissionGateway to RolePermissionRepository
+
+	at fonea.ped.infrastructure.config.GatewayConfiguration.rolePermissionRepository(GatewayConfiguration.java:332) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 87 common frames omitted
+
